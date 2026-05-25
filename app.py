@@ -27,38 +27,7 @@ model = tf.keras.models.load_model(
 # HEADER SECTION
 # ------------------------------------
 
-st.markdown("""
-# 🚢 Titanic Survival Prediction System
-### Deep Learning Based Passenger Survival Prediction
-""")
 
-st.image(
-    "https://upload.wikimedia.org/wikipedia/commons/f/fd/RMS_Titanic_3.jpg",
-    use_container_width=True
-)
-
-# ------------------------------------
-# PROJECT DESCRIPTION
-# ------------------------------------
-
-st.markdown("""
-## 📌 Project Description
-
-This application predicts whether a passenger would survive during the Titanic disaster using:
-
-- Artificial Neural Networks (ANN)
-- TensorFlow Deep Learning Model
-- Streamlit Deployment
-
-The model was trained using passenger details such as:
-- Passenger Class
-- Age
-- Fare
-
-The trained ANN model performs prediction using forward propagation and outputs survival probability.
-""")
-
-st.divider()
 
 # ------------------------------------
 # INPUT SECTION
