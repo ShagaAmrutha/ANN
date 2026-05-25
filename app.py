@@ -18,7 +18,10 @@ st.set_page_config(
 # LOAD MODEL
 # ------------------------------------
 
-model = tf.keras.models.load_model("titanic_ann_model.h5")
+model = tf.keras.models.load_model(
+    "titanic_ann_model.h5",
+    compile=False
+)
 
 # ------------------------------------
 # HEADER SECTION
