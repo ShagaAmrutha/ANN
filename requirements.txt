@@ -1,5 +1,6 @@
-streamlit
-tensorflow
+streamlit==1.57.0
+tensorflow==2.16.2
 numpy
 pandas
 matplotlib
+h5py
